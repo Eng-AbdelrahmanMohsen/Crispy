@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a,
+i {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*===================================================================================================================================*/
+
+.header-container {
+    background-image: url('../images/blog1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 35%;
+    height: 230px;
+}
+
+.lay-out {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 230px;
+}

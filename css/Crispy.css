@@ -1,0 +1,348 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    a,
+    i {
+        cursor: pointer;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        letter-spacing: 1px;
+        font-family: 'Lato', sans-serif;
+    }
+    /*------------------------------------------------------------------------------------------------------------------------*/
+    
+    .Control-nav {
+        background-color: #0D1326;
+    }
+    
+    svg[data-icon="ant-design:download-outlined"] {
+        font-size: 23px;
+    }
+    
+    .Back-Control:hover,
+    .Edit-Control:hover,
+    .Download-Control:hover {
+        color: white;
+        cursor: pointer;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    /*=========================================================================================================================================*/
+    
+    .Contact-Nav {
+        background-color: #333;
+    }
+    /*========================================================================================================================================*/
+    
+    nav {
+        background-color: #F85A40;
+    }
+    
+    .navbar-brand {
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    
+    .nav-item a {
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+    
+    .call-button {
+        box-shadow: 0 0px 45px rgba(0, 0, 0, .2);
+        color: #F85A40;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    
+    .appear {
+        opacity: 0;
+    }
+    
+    .navbar-toggler {
+        background-color: white;
+        padding: 15px;
+    }
+    
+    .line1,
+    .line2,
+    .line3 {
+        width: 15px;
+        height: 2px;
+        display: block;
+        background-color: #F85A40;
+    }
+    
+    .navbar-toggler:hover .line1,
+    .navbar-toggler:hover .line2,
+    .navbar-toggler:hover .line3 {
+        background-color: black;
+    }
+    /*-----------------------------------------------------------------------------------------------------------------------------------------*/
+    
+    .Website-Overview {
+        height: 600px;
+        background-color: #F8F9FA;
+    }
+    
+    .Contact-Button1 {
+        background-color: #353C4E;
+    }
+    
+    .Contact-Button2 {
+        background-color: #F85A40;
+    }
+    
+    .headline {
+        letter-spacing: 1px;
+        font-size: 60px;
+    }
+    
+    .title {
+        font-size: 60px;
+        color: #353C4E;
+    }
+    
+    .description-overview {
+        line-height: 1.9em;
+        color: #777;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .owl-dots {
+        display: flex;
+        justify-content: start;
+    }
+    
+    .owl-dots button {
+        height: 0px;
+    }
+    
+    .owl-theme .owl-dots .owl-dot span {
+        width: 20px;
+        height: 4px;
+        margin-top: 15px;
+    }
+    
+    .owl-dots button:hover span,
+    .owl-dots button:focus span {
+        background-color: orangered !important;
+    }
+    /*--------------------------------------------------------------------------------------------------------------------------------------*/
+    
+    .About-us .container h2 {
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 40px;
+    }
+    
+    .line {
+        width: 110px;
+        height: 2px;
+        background-color: black;
+        margin: auto;
+    }
+    
+    .article1 h4 {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+    
+    .article1 p {
+        font-size: 19px;
+        font-weight: normal;
+        color: #555;
+    }
+    
+    .icon-title {
+        font-size: 16px;
+        font-weight: 600;
+        color: #353c4e;
+    }
+    
+    .article1 .special-p {
+        font-size: 17px;
+    }
+    
+    .icon-circle {
+        width: 80px;
+        height: 80px;
+        background-color: #F85A40;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    /*----------------------------------------------------------------------------------------------------------------------------------*/
+    
+    .Services {
+        background: #f8f9fa;
+    }
+    
+    .Third-title {
+        font-size: 50px;
+        letter-spacing: 2px;
+        color: #222;
+    }
+    
+    .serv {
+        height: 100%;
+        background: #fff;
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, .1);
+        padding: 50px 40px;
+    }
+    
+    .serv .servs {
+        font-size: 25px;
+        line-height: 35px;
+        font-weight: 600;
+    }
+    
+    .serv .serv-article {
+        font-size: 15px;
+        font-weight: normal;
+        letter-spacing: 1px;
+        color: #777;
+    }
+    /*==========================================================================================================================*/
+    
+    .card-img-top {
+        width: 80px !important;
+        height: 80px !important;
+        border-top-left-radius: calc(.25rem - 1px);
+        border-top-right-radius: calc(.25rem - 1px);
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .body-card {
+        background-color: #F85A40;
+    }
+    /*==============================================================================================================================*/
+    
+    .blog-link {
+        position: absolute;
+        right: 2.6%;
+        top: 1%;
+        padding: 7px 20px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .blog-news h5 {
+        color: #999;
+    }
+    
+    .blog-news p {
+        color: #777;
+        letter-spacing: 1px;
+        text-align: justify;
+    }
+    
+    .blog-news a {
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    /*===========================================================================================================================*/
+    
+    .Tips {
+        background-color: #F85A40;
+    }
+    
+    .Tips h4 {
+        font-size: 37px;
+        letter-spacing: 2px;
+    }
+    
+    .Tips h3 {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+    /*=============================================================================================================================*/
+    
+    footer {
+        background: #191919;
+    }
+    
+    .first-row-content p {
+        font-size: 15px;
+        color: #777;
+        font-weight: normal;
+        letter-spacing: .5px;
+    }
+    
+    .first-row-content h5 {
+        color: #666;
+        font-size: 15px;
+    }
+    
+    .first-row-content h5 span {
+        color: #F85A40;
+    }
+    
+    .street {
+        font-size: 15px;
+        color: #777;
+        font-weight: normal;
+        letter-spacing: .5px;
+    }
+    
+    .street a:hover {
+        color: #777;
+    }
+    
+    .Quick-links ul li a:hover {
+        color: #777;
+    }
+    
+    .subscribe-me {
+        color: #777;
+        font-size: 17px;
+    }
+    
+    .social-icons {
+        color: #777;
+    }
+    
+    .subscribe-btn {
+        background-color: #F85A40;
+    }
+    
+    .footerline {
+        background-color: #777
+    }
+    
+    .copy {
+        color: #777;
+    }
+    /*============================================================================================================================*/

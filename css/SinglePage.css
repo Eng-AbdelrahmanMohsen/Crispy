@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a,
+i {
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*===================================================================================================================================*/
+
+.header-container {
+    background-image: url('../images/blog1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 35%;
+    height: 230px;
+}
+
+.lay-out {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 230px;
+}
+
+
+/*=====================================================================================================================================*/
+
+.link-color {
+    background-color: #F85A40;
+}
+
+.card-text,
+.media-text,
+.news-text {
+    margin: 0;
+    line-height: 1.9em;
+    color: #777 !important;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-icons {
+    color: #777;
+}
+
+button[type="submit"] {
+    background-color: #F85A40;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+}
+
+input[value="Subscribe"] {
+    background-color: #F85A40;
+}
+
+.counter {
+    background-color: #F85A40;
+}
+
+.h5-link {
+    font-size: 16px;
+}
+
+.blog-time i,
+.blog-time span {
+    color: #777;
+}
+
+
+/*=====================================================================================================================================*/
+
+.Connect ul .twitter {
+    background-color: #57BAF7;
+}
+
+.Connect ul .facebook {
+    background-color: #44609D;
+}
+
+.Connect ul .dribbble {
+    background-color: #EB4E8B;
+}
+
+.Connect ul .pinterest {
+    background-color: #BE0B1F;
+}
+
+.recent-post {
+    width: 100%;
+    height: 85px;
+}

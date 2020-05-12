@@ -1,0 +1,237 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .Edit-control {
+        visibility: hidden;
+    }
+    .downloader {
+        display: none;
+    }
+    .Buy {
+        display: none;
+    }
+    .Back {
+        visibility: hidden;
+        ;
+    }
+    .first-ul,
+    .second-ul {
+        display: flex;
+        justify-content: center;
+    }
+    .phone-contact {
+        margin-top: 15px;
+    }
+    .not-appear {
+        display: none;
+    }
+    .appear {
+        opacity: 1;
+    }
+    .navbar-nav {
+        background-color: white;
+    }
+    .nav-item a {
+        color: black !important;
+        text-align: center;
+    }
+    .headline,
+    .title {
+        font-size: 40px;
+    }
+    .Website-Overview {
+        height: 900px;
+    }
+    .article1 h4 {
+        font-size: 25px;
+    }
+    .serv .servs {
+        font-weight: 500;
+    }
+    .Third-title {
+        font-size: 40px;
+    }
+    .blog-news {
+        margin-top: 20px;
+    }
+    .blog-link {
+        position: absolute;
+        right: 4.3%;
+        top: 1%;
+    }
+    .Tips h4 {
+        font-size: 22px;
+    }
+    .serv-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .chef .layout {
+        position: absolute;
+        right: 89px;
+    }
+    .chef {
+        margin-top: 40px;
+    }
+    .chef-container {
+        padding-left: 90px;
+    }
+    .single-card img {
+        height: 350px !important;
+    }
+    .recent-post {
+        height: 270px;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .Edit-control {
+        visibility: hidden;
+    }
+    .downloader {
+        display: none;
+    }
+    .Buy {
+        display: none;
+    }
+    .Back {
+        visibility: hidden;
+    }
+    .not-appear {
+        display: none;
+    }
+    .appear {
+        opacity: 1;
+    }
+    .navbar-nav {
+        background-color: white;
+    }
+    .nav-item a {
+        color: black !important;
+        text-align: center;
+    }
+    .headline,
+    .title {
+        font-size: 40px;
+    }
+    .Website-Overview {
+        height: 900px;
+    }
+    .article1 h4 {
+        font-size: 25px;
+    }
+    .serv .servs {
+        font-weight: 500;
+    }
+    .Third-title {
+        font-size: 40px;
+    }
+    .blog-news {
+        margin-top: 20px;
+    }
+    .blog-link {
+        position: absolute;
+        right: 4.3%;
+        top: 1%;
+    }
+    .Tips h4 {
+        font-size: 22px;
+    }
+    .chef {
+        margin-top: 40px;
+    }
+    .single-card img {
+        height: 350px !important;
+    }
+    .recent-post {
+        height: 270px;
+    }
+}
+
+
+/*  Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .Edit-control {
+        visibility: hidden;
+    }
+    .not-appear {
+        display: none;
+    }
+    .appear {
+        opacity: 1;
+    }
+    .navbar-nav {
+        background-color: white;
+    }
+    .nav-item a {
+        color: black !important;
+        text-align: center;
+    }
+    .headline,
+    .title {
+        font-size: 40px;
+    }
+    .Website-Overview {
+        height: 900px;
+    }
+    .serv .servs {
+        font-weight: 500;
+    }
+    .blog-news {
+        margin-top: 20px;
+    }
+    .blog-link {
+        position: absolute;
+        right: 8.5%;
+        top: 1%;
+    }
+    .Tips h4 {
+        font-size: 30px;
+    }
+    .chef .layout {
+        position: absolute;
+        right: 40px;
+    }
+    .chef {
+        margin-top: 40px;
+    }
+    .recent-post {
+        height: 170px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .Edit-control {
+        visibility: hidden;
+    }
+    .headline,
+    .title {
+        font-size: 50px;
+    }
+    .blog-link {
+        position: absolute;
+        right: 4%;
+        top: 1%;
+    }
+    .Tips h4 {
+        font-size: 30px;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .blog-link {
+        position: absolute;
+        right: 3%;
+        top: 1%;
+    }
+}

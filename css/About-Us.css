@@ -1,0 +1,147 @@
+                                    * {
+                                        margin: 0px;
+                                        padding: 0px;
+                                        box-sizing: border-box;
+                                    }
+                                    
+                                    a,
+                                    i {
+                                        cursor: pointer;
+                                    }
+                                    
+                                    a:hover {
+                                        text-decoration: none;
+                                    }
+                                    
+                                    h1,
+                                    h2,
+                                    h3,
+                                    h4,
+                                    h5,
+                                    h6 {
+                                        margin: 0;
+                                        letter-spacing: 1px;
+                                        font-family: 'Lato', sans-serif;
+                                    }
+                                    /*===================================================================================================================================*/
+                                    
+                                    .header-container {
+                                        background-image: url('../images/blog1.jpg');
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                        background-position-x: 50%;
+                                        background-position-y: 35%;
+                                        height: 230px;
+                                    }
+                                    
+                                    .lay-out {
+                                        background-color: rgba(0, 0, 0, 0.2);
+                                        height: 230px;
+                                    }
+                                    /*===================================================================================================================================*/
+                                    
+                                    .chef .layout {
+                                        position: absolute;
+                                        top: 10px;
+                                        left: 10px;
+                                        right: 10px;
+                                        bottom: 10px;
+                                        background-color: rgba(0, 0, 0, 0.7);
+                                        transition: 0.3s;
+                                        -webkit-transition: 0.3s;
+                                        -moz-transition: 0.3s;
+                                        -ms-transition: 0.3s;
+                                        -o-transition: 0.3s;
+                                        opacity: 0;
+                                    }
+                                    
+                                    .chefs .container h2 {
+                                        font-size: 50px;
+                                        font-weight: 500;
+                                    }
+                                    
+                                    .chef .layout:hover {
+                                        opacity: 1;
+                                    }
+                                    
+                                    .chef-info,
+                                    .chef-info h4 {
+                                        text-align: center;
+                                        color: #eee;
+                                        text-transform: capitalize;
+                                    }
+                                    
+                                    .chef-info p {
+                                        font-size: 14px;
+                                        letter-spacing: .5px;
+                                        color: #aaa;
+                                        margin-top: 10px;
+                                    }
+                                    
+                                    .layout .chef-info {
+                                        position: absolute;
+                                        top: 0%;
+                                        width: 100%;
+                                        opacity: 0;
+                                        transition: all 0.3s 0.2s;
+                                        padding: 0 10px;
+                                    }
+                                    
+                                    .chef:hover .chef-info {
+                                        opacity: 1;
+                                        top: 15%;
+                                    }
+                                    
+                                    .layout .s-link {
+                                        position: absolute;
+                                        bottom: 0;
+                                        width: 100%;
+                                        opacity: 0;
+                                        text-align: center;
+                                        transition: all 0.3s 0.2s;
+                                        font-size: 35px;
+                                    }
+                                    
+                                    .chef:hover .s-link {
+                                        opacity: 1;
+                                        bottom: 7%;
+                                    }
+                                    
+                                    .chef .layout .s-link a {
+                                        margin: 0px 2px;
+                                        color: blue;
+                                        font-size: 16px;
+                                        background: rgba(0, 0, 0, 0.3);
+                                        width: 35px;
+                                        height: 35px;
+                                        line-height: 35px;
+                                        display: inline-block;
+                                    }
+                                    
+                                    .layout .s-link a {
+                                        text-align: center;
+                                        color: #eee;
+                                        text-transform: capitalize;
+                                    }
+                                    
+                                    .team-title {
+                                        position: static;
+                                        padding: 20px 0 0;
+                                        display: inline-block;
+                                        letter-spacing: 2px;
+                                        width: 100%;
+                                    }
+                                    
+                                    .team-title h5 {
+                                        margin-bottom: 0px;
+                                        display: block;
+                                        font-size: 22px;
+                                        color: #353c4e;
+                                    }
+                                    
+                                    .team-title span {
+                                        font-size: 12px;
+                                        text-transform: uppercase;
+                                        color: #a5a5a5;
+                                        letter-spacing: 1px;
+                                    }
